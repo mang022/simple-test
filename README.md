@@ -14,6 +14,7 @@ Test call `localhost:8080/ping` using curl, PostMan, and so on.
 
 ## Recover panic in a custom way
 Create panic in new API path(/panic). Do not use panic().
+
 If you call /panic, then return http status OK with JSON message, {"error": "panic recovered"}.
 
 ## Fill running_total_quantity
