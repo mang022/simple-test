@@ -13,9 +13,9 @@ go build
 Test call `localhost:8080/ping` using curl, PostMan, and so on.
 
 ## Recover panic in a custom way
-Create panic in new API path(/panic). Do not use panic().
-
-If you call /panic, then return http status OK with JSON message, {"error": "panic recovered"}.
+1. Create a new endpoint ([GET] /panic).
+2. Force to generate a panic like nil pointer error when you request /panic. Do not use panic() function.
+3. When a panic occurs, return http status OK and JSON message {"error": "panic recovered"}.
 
 ## Fill running_total_quantity
 Run simple.sql.
