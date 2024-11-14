@@ -1,5 +1,17 @@
 # Simple Back-end Test
 
+## Build and Run main.go
+
+```
+go mod tidy
+
+go build
+
+./simple-test
+```
+
+Test call `localhost:8080/ping` using curl, PostMan, and so on.
+
 ## Find exchange rate
 
 - Print current exchange rate, USD -> KRW.
