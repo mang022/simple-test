@@ -1,27 +1,13 @@
 # Simple Back-end Test
 
-## Build and Run main.go
+## Find exchange rate
 
-```
-go mod tidy
-
-go build
-
-./simple-test
-```
-
-Test call `localhost:8080/ping` using curl, PostMan, and so on.
-
-## Recover panic in a custom way
-1. Create a new endpoint ([GET] /panic).
-2. Force to generate a panic like nil pointer error when you request /panic. Do not use panic() function.
-3. When a panic occurs, return http status OK and JSON message {"error": "panic recovered"}.
-
-## Fill running_total_quantity
-Run simple.sql.
-
-Fill running_total_quantity per item using SQL query.
+- Print current exchange rate, USD -> KRW.
+- Print exchange rate of 2024-11-01, USD -> KRW.
+- Print all currency code and exchange rate for KRW if the rate is greater than or equal to 1000.
+- Print the number of currency if exchange rate for KRW is greater than or equal to 1000.
 
 ## Caution
 - The time limit is 40 minutes.
 - You can search for it, but please show me the screen you search for.
+- API key is for free tier.
