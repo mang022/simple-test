@@ -22,4 +22,4 @@ Test call `localhost:8080/ping` using curl, PostMan, and so on.
 ## Caution
 - The time limit is 40 minutes.
 - You can search for it, but please show me the screen you search for.
-- API key is for free tier. It means that you can't use a base, symbol parameters.
+- API key is for free tier. It means that you can't use a base, symbol as parameter.
