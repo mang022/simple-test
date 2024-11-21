@@ -16,9 +16,15 @@ Test call `localhost:8080/ping` using curl, PostMan, and so on.
 
 1. Print a current exchange rate, USD -> KRW (GET /exchange/:code).
    In this case, code is USD.
-3. Print exchange rate of 2024-11-01, USD -> KRW (GET /exchange/:code?date=2024-11-01).
-4. Print all currency code and exchange rate for KRW if the rate is greater than or equal to 1000 (GET /exchange?min=1000).
-5. Print the number of currency if exchange rate for KRW is greater than or equal to 1000 (GET /counting/exchange?min=1000).
+
+
+2. Print exchange rate of 2024-11-01, USD -> KRW (GET /exchange/:code?date=2024-11-01).
+
+
+3. Print all currency code and exchange rate for KRW if the rate is greater than or equal to 1000 (GET /exchange?min=1000).
+
+
+4. Print the number of currency if exchange rate for KRW is greater than or equal to 1000 (GET /counting/exchange?min=1000).
 
 ## Caution
 - The time limit is 40 minutes.
