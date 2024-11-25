@@ -41,4 +41,4 @@ Response
 - You can search for it, but please show me the screen you search for.
 - API key is for free tier. It means that you can't use a base, symbol as query parameter.
 - https://fixer.io/
-- 2513890aa26d236e17cf83d8b2b84049
+- API KEY: 2513890aa26d236e17cf83d8b2b84049
