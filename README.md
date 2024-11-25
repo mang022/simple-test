@@ -26,7 +26,7 @@ In this case, code is USD.
 Response
 ```
 {
-   "rate": 1400.0
+   "rate": 1400.00
 }
 ```
 
