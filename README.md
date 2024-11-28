@@ -44,6 +44,5 @@ Response
 ## Caution
 - The time limit is 40 minutes.
 - You can search for it, but please show me the screen you search for.
-- API key is for free tier. It means that you can't use a base, symbol as query parameter.
 - https://freecurrencyapi.com
 - API KEY: fca_live_FtBXLKYTjmeVMXrF7tpU9SpxD5OoEQKSGffFC2y7
