@@ -17,7 +17,7 @@ Test call `localhost:8080/ping` using curl, PostMan, and so on.
 0. Implement a simple Restful API server.
 
 
-1. Return a current exchange rate, USD -> KRW.
+1. Return a current exchange rate, USD -> KRW.
 
 Path
 ```
