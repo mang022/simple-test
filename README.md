@@ -17,15 +17,16 @@ Test call `localhost:8080/ping` using curl, PostMan, and so on.
 0. Implement a simple Restful API server.
 
 
-1. Return a current exchange rate, USD -> KRW.
+1. Return a current exchange rate of KRW (Won).
 
 Path
 ```
 [GET] /exchange/:code
 ```
-In this case, code is USD.
+{:code} is a path parameter.
+For example, if you want to get a current Dollar(USD) to Won(KRW) exchange rate, the code is USD.
    
-Response
+Response (JSON)
 ```
 {
    "rate": 1400.00
