@@ -24,7 +24,11 @@ Path
 [GET] /exchange/:code
 ```
 {:code} is a path parameter.
+
 For example, if you want to get a current Dollar(USD) to Won(KRW) exchange rate, the code is USD.
+
+If the code is JYP, return a current JYP to KRW exchange rate.
+
    
 Response (JSON)
 ```
