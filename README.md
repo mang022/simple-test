@@ -33,7 +33,7 @@ If the code is JYP, return a current JYP to KRW exchange rate.
 Response (JSON)
 ```
 {
-   "rate": 1400.00
+   "rate": 1400.00   // to two decimal places
 }
 ```
 
