@@ -27,7 +27,7 @@ Path
 
 For example, if you want to get a current Dollar(USD) to Won(KRW) exchange rate, the code is USD.
 
-If the code is JYP, return a current JYP to KRW exchange rate.
+If the code is JPY, return a current JPY to KRW exchange rate.
 
    
 Response (JSON)
