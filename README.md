@@ -34,13 +34,6 @@ Response (JSON)
 ```
 
 
-2. Return a exchange rate of 2024-11-01, USD -> KRW (GET /exchange/:code?date=2024-11-01).
-
-
-3. Return all currency code and exchange rate for KRW if the rate is greater than or equal to 1000 (GET /exchange?min=1000).
-
-
-4. Return the number of currency if exchange rate for KRW is greater than or equal to 1000 (GET /counting/exchange?min=1000).
 
 ## Caution
 - The time limit is 40 minutes.
